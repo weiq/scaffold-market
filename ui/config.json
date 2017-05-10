@@ -1,0 +1,16 @@
+{
+  "base": "src",
+  "build": "dist",
+  "asserts": {
+    "local": "/",
+    "test": "/",
+    "production-cn": "http://images.smartaututotech.com/",
+    "production-ge": "http://gimages.smartaututotech.com/"
+  },
+  "api": {
+    "local": "http://192.168.199.105:8083",
+    "test": "http://test.smartaututotech.com",
+    "production_cn": "http://cloud.smartautotech.com",
+    "production_ge": "http://gcloud.smartaututotech.com/"
+  }
+}
