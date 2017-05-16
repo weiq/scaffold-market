@@ -117,6 +117,15 @@
     "readme": "## React Redux 脚手架\n",
     "deployedAt": "2017-05-16T04:00:00.678Z"
   }, {
+    "name": "react-scaffold",
+    "git_url": "git://github.com/starriv/react-scaffold.git",
+    "author": "starriv",
+    "description": "A react basic scaffold ",
+    "tags": ["react"],
+    "coverPicture": null,
+    "readme": "# React Scaffold\n\nThat is a simple React scaffolding, it contains a React,Redux,React-Router.\nHope can help you fast develop\n\n[![Build Status](https://travis-ci.org/starriv/react-scaffold.svg?branch=master)](https://travis-ci.org/starriv/react-scaffold)\n[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)\n\n# Feature\n- ES6+ support, use babel\n- with development and the product model\n- development patterns support heat load\n\n# Setup\n- git clone https://git.coding.net/starriv/react-scaffold.git\n- npm install\n\n# Run\ndefault use development model\n- dev:  npm run dev && open your brower to http://127.0.0.1:3002\n- prod: npm run build\n\n\n# React 脚手架\n这是一个基础React脚手架，它包含有React,React Router, Redux。\n希望它能帮你住快速开发。\n\n# 特点\n- ES6+的支持,使用Babel转换\n- 开发模式 和 产品模式\n- 开发模式热加载支持\n\n# 安装\n- git clone https://git.coding.net/starriv/react-scaffold.git\n- npm install\n\n# 运行\n默认为开发模式\n- dev npm run dev && 打开浏览器 http://127.0.0.1:3002\n- prod npm run build\n",
+    "deployedAt": "2017-05-16T04:40:11.100Z"
+  }, {
     "name": "react-start-kit",
     "git_url": "git://github.com/jovey-zheng/react-start-kit.git",
     "author": "jovey-zheng",
@@ -125,6 +134,15 @@
     "coverPicture": null,
     "readme": "\n## Getting start\n\n  1. Clone this repo:\n  ```\n  $ git clone https://github.com/jovey-zheng/react-start-kit.git\n  ```\n\n  2. Install dependenices:\n  ```\n  $ npm i\n  ```\n\n  3. Start the project:\n  ```\n  $ npm start               // default prot is 3000\n  $ PORT=80 npm start       // using `PORT` to customize port in the CLI\n  ```\n\n  4. Access browser: [http://localhost:3000](http://localhost:3000). Or start with [`minihost`](https://www.npmjs.com/package/minihost):\n    ```\n    h -n start npm start\n    ```\n    and then access: [http://start.t.t](http://start.t.t)\n\n  5. Then do whatever you want : ).\n\n## Contributing\n\nPull requests are welcome!\n\n## LICENSE\n\nLicense under [MIT](https://github.com/jovey-zheng/react-start-kit/blob/master/LICENSE.md).\n",
     "deployedAt": "2017-05-16T03:54:22.524Z"
+  }, {
+    "name": "reactSPA",
+    "git_url": "git://github.com/JasonBai007/reactSPA.git",
+    "author": "JasonBai007",
+    "description": "A Demo SPA developed with React, ES6, Webpack (1.x), and Antd (1.x) 【move to react-seed】",
+    "tags": ["react", "spa"],
+    "coverPicture": null,
+    "readme": "### Target\n> 使用React技术栈开发SPA.\n\n### Tech Stack\n* UI库：React & React-Dom\n* UI组件：Antd\n* 路由：React-Router & History\n* 框架：Reflux\n* JS：ES6 \n* 样式：Less\n* 图标：Antd自带/FontAwesome\n* 动画：Animate.css\n* 与后台通信：Fetch/Ajax\n* 日期处理：Moment\n* 假数据模拟：MockJS\n* 打包构建：Babel Webpack\n* 包管理：Npm\n\n### Features\n* 自主配置开发环境\n* 支持ES6\n* React-Router配置路由\n* Less代替Css\n* Fetch代替Ajax\n* MockJs模拟数据\n* AnimateCSS提供动画效果\n* 支持jQuery\n* 支持浏览器自动刷新\n\n### Usage\n> 1、安装依赖：$ npm install  \n> 2、启动服务：$ npm start  \n> 3、生成文件：$ npm run build  \n\n### Articles\n* [React 的ES5、ES6写法对照表](http://bbs.reactnative.cn/topic/15/react-react-native-%E7%9A%84es5-es6%E5%86%99%E6%B3%95%E5%AF%B9%E7%85%A7%E8%A1%A8)\n* [React 组件之间如何交流](http://www.tuicool.com/articles/AzQzEbq)\n* [react-router 中的history](https://zhuanlan.zhihu.com/p/20799258?refer=jscss)\n* [react-router 按需加载](https://segmentfault.com/a/1190000007141049)\n* [ECMAScript 6入门](http://es6.ruanyifeng.com/)\n* [Webpack 实例和文章](https://github.com/JasonBai007/webpack-starter-kit)\n* [React Reflux](https://segmentfault.com/a/1190000002793786)\n* [React+reflux应用 IE8/9/10/11兼容实践](https://segmentfault.com/a/1190000005794242#articleHeader9)\n* [Reflux系列01：异步操作经验小结](https://segmentfault.com/a/1190000004250062)\n* [传统 Ajax 已死，Fetch 永生](http://www.jianshu.com/p/THLARe#)\n* [Fetch API](https://github.github.io/fetch/)\n* [使用Mock.js进行独立于后端的前端开发](https://segmentfault.com/a/1190000003087224)\n\n### Diary(填坑日志)\n> 1、如果引入FontAwesome,会严重增加编译后的CSS文件体积  \n> 2、通过定义Vendors，可以抽取出第三方库文件，避免所有js文件打包在一起  \n> 3、通过安装babel-plugin-import插件，可以自动抽离用到的ant组件  \n> 4、路由的history配置，如果配置成browserHistory,服务器端也需要做相应的配置  \n> 5、路由的history配置，如果配置成hashHistory,则url地址里会有难看的后缀  \n> 6、编译静态文件的webpack配置中，插件项目需要设置成生产环境NODE_ENV:JSON.stringify(\"production\")  \n> 7、实现路由的跳转，页面内的导航，请使用history（自行Github之），这绝壁是个大坑！  \n> 8、本项目使用的是antd 1.x版本，想升级到最新版本（2.x），结果需要改动的地方实在太多，于是放弃\n \nLicense\n----\n\nMIT\n",
+    "deployedAt": "2017-05-16T03:58:04.030Z"
   }, {
     "name": "star-initReact-example",
     "git_url": "git://github.com/pookpal/star-initReact-example.git",
