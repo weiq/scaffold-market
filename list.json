@@ -232,6 +232,6 @@
     "tags": ["react", "antd"],
     "coverPicture": null,
     "readme": "## React Ant.Design Admin UI\n\n## Features\n\n- [React](https://facebook.github.io/react/)\n- [Redux](https://github.com/reactjs/redux)\n- [Ant.Design](http://ant.design/)\n- [Babel](https://babeljs.io/)\n- [webpack2](https://webpack.github.io/)\n- [mocha](https://mochajs.org/)\n- [enzyme](https://github.com/airbnb/enzyme)\n- [Travis](https://travis-ci.org/)\n- [Docker](https://www.docker.com/)\n\n## Getting Started\n\nJust clone the repo and install the necessary node modules:\n\n```shell\n$ git clone https://github.com/tianzx/ui.git\n$ cd ui\n$ npm install\n$ npm start\n```\n\n## Run test spec\n\n```shell\n$ npm run test\n```\n\n## Run production build\n\n```shell\n$ vi /etc/environment and export NODE_ENV='production'\n$ npm run build\n```\n\nin your local machine\n```shell\n$ scp -r localPath/ui/dist/  remotePath:ui\n```\n\nin your remote machine\n```shell\n$ mv dist/* ./\n$ cnpm install pm2 -g \n$ pm2 start server.js\n```\n\nnotation: before execute the command ,you must ensure you have executed the command\n\n```shell\n$ cnpm install rimraf -g\n```\n\n## NOTICE\n\n### replace npm with cnpm(in China)\n&emsp;&emsp;&emsp;&emsp;https://npm.taobao.org/\n### add n to admin nodejs version\n&emsp;&emsp;&emsp;&emsp;https://github.com/tj/n\n\n### update npm \n&emsp;&emsp;&emsp;&emsp;cnpm update -g npm\n",
-    "deployedAt": "2017-05-10T09:52:24.204Z"
+    "deployedAt": "2017-05-24T13:36:54.544Z"
   }]
 }

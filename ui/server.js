@@ -9,6 +9,7 @@ const projectConfig = require('./config.json');
 const env = process.argv[2];
 const path = require('path');
 const publicPath = path.resolve(__dirname);
+// const msgpackResponse = require('msgpack-response');
 
 /**
  * different environment
@@ -36,13 +37,14 @@ if (isDeveloping) {
     // etag: false,
     // extensions: ['htm', 'html'],
     // index: false,
-    maxAge: '5 days',
+    maxAge: '1 days',
     // redirect: false,
     // setHeaders: function (res, path, stat) {
     //   res.set('x-timestamp', Date.now());
     // }
   }
-  app.use(express.static(publicPath,options));
+  console.log(publicPath);
+  app.use(express.static(__dirname + '/asserts',options));
   console.log('enter production');
 }
 
@@ -50,6 +52,7 @@ if (isDeveloping) {
  * RESTful API
  */
 app.use(bodyParser.json({type: 'application/json'}));
+// app.use(msgpackResponse({auto_detect: true}));
 app.use(cookieParser());
 
 const port = isProduction ? (process.env.PORT || 8080) : 7777;
@@ -59,7 +62,7 @@ ioc(app);
  *this is necessary to handle URL correctly since client uses Browser History
  */
 app.get('*', function (req, res) {
-  res.sendFile(path.resolve(__dirname, '', 'index.html'))
+  res.sendFile(path.resolve(__dirname + '/index.html'))
 });
 // 所有用户可以访问index.html, error.html
 // admin可以访问admin.html, /getData
