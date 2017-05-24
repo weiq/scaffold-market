@@ -45,6 +45,24 @@
     "coverPicture": "https://ucarecdn.com/c1a43345-d5ed-4167-875c-4680471903f2/",
     "readme": "# chat\nA Chat Scaffold based on antd and dva:\n\nScreenshots:\n-----\n\n![](https://cloud.githubusercontent.com/assets/566097/21448864/2dc1a59c-c922-11e6-9b80-726593d8163d.png)\n\n![](https://cloud.githubusercontent.com/assets/566097/21494490/f28c2eb0-cc4c-11e6-83b8-723ae1423328.png)\n\nFirebase Structure\n-----\n\n```\nroot: {\n  conversations: { // conversations\n    '-2h6WJbFPBxUs15iB15DnSAIRTyP2-1482823102860': {\n      participants: {\n        '2h6WJbFPBxUs15iB15DnSAIRTyP2': user,\n        '1482823102860': user\n      },\n      chats: {\n        '-KZzCufnRDtS4h0q9fL': {\n          content: '',\n          time: '',\n          user: {}\n        }\n      }\n    },\n    ...\n  },\n  user: { // online users\n    '2h6WJbFPBxUs15iB15DnSAIRTyP2': user,\n    ...\n  }\n}\n```\n\n\nInstall\n------\n\n```\ngit clone https://github.com/RaoHai/chat.git\ncd chat\nnpm install\nnpm start // enjoy :D\n\n```\n"
   }, {
+    "name": "dva-antd-mobile-starter",
+    "git_url": "git://github.com/xlsdg/dva-antd-mobile-starter.git",
+    "author": "xlsdg",
+    "description": "Get started with Dva.js and Ant Design mobile.",
+    "tags": ["antd", "dva", "mobile"],
+    "coverPicture": null,
+    "readme": "# dva-antd-mobile-starter [![Build Status](https://travis-ci.org/xlsdg/dva-antd-mobile-starter.svg?branch=master)](https://travis-ci.org/xlsdg/dva-antd-mobile-starter)\n\n> Get started with Dva.js and Ant Design mobile.\n\n![Screen Shot](screenshot.png)\n",
+    "deployedAt": "2017-05-24T12:14:31.221Z"
+  }, {
+    "name": "dva-antd-starter",
+    "git_url": "git://github.com/xlsdg/dva-antd-starter.git",
+    "author": "xlsdg",
+    "description": "Get started with Dva.js and Ant Design.",
+    "tags": ["dva", "antd"],
+    "coverPicture": "https://ucarecdn.com/8602e133-b80f-4616-bbc8-f8cba40b6254/",
+    "readme": "# dva-antd-starter [![Build Status](https://travis-ci.org/xlsdg/dva-antd-starter.svg?branch=master)](https://travis-ci.org/xlsdg/dva-antd-starter)\n\n> Get started with Dva.js and Ant Design.\n\n![Screen Shot](screenshot.png)\n",
+    "deployedAt": "2017-05-24T12:15:35.432Z"
+  }, {
     "name": "dva-example-user-dashboard",
     "git_url": "git://github.com/dvajs/dva-example-user-dashboard.git",
     "author": "dvajs",
@@ -117,6 +135,15 @@
     "readme": "## react-antd-demo\n基于react及antd的demo\n\n## 演示地址\ndemo: [http://luozhihao.github.io/react-antd-demo/index.html](http://luozhihao.github.io/react-antd-demo/index.html)\n\n## 文档说明\n地址：[http://www.cnblogs.com/luozhihao/p/5579786.html](http://www.cnblogs.com/luozhihao/p/5579786.html)\n\n## 本地运行\n> npm install\n\n> npm run dev\n",
     "deployedAt": "2017-05-10T10:22:39.679Z"
   }, {
+    "name": "react-frontend-boilerplate",
+    "git_url": "git://github.com/huhulab/react-frontend-boilerplate.git",
+    "author": "huhulab",
+    "description": "React admin frontend project boilerplate (Based on ant.design)",
+    "tags": ["react", "antd"],
+    "coverPicture": null,
+    "readme": "## What's this\nReact([ant-design](https://github.com/ant-design/ant-design)) based frontend boilerplate project.\n\n## How to run it\n``` bash\nnpm install\n# More commands see: package.json\nnpm start\n# Open http://localhost:3000/#/demo/test_forms\n```\n",
+    "deployedAt": "2017-05-24T12:16:08.998Z"
+  }, {
     "name": "react-redux-antd",
     "git_url": "git://github.com/Justin-lu/react-redux-antd.git",
     "author": "Justin-lu",
@@ -134,6 +161,15 @@
     "coverPicture": null,
     "readme": "## React Redux 脚手架\n",
     "deployedAt": "2017-05-16T04:00:00.678Z"
+  }, {
+    "name": "react-redux-antd-starter",
+    "git_url": "git://github.com/BetaRabbit/react-redux-antd-starter.git",
+    "author": "BetaRabbit",
+    "description": "A React + Redux + Ant-Design frontend boilerplate",
+    "tags": ["antd", "redux", "react"],
+    "coverPicture": null,
+    "readme": "# react-redux-antd-starter\nA React + Redux + Ant-Design frontend boilerplate.\n\n- [x] React\n- [x] Redux\n- [x] Ant-Design\n- [x] React Router\n- [x] React Router Redux\n- [x] Redux Actions\n- [x] Babel\n- [x] PostCSS\n- [x] LESS\n- [ ] CSS Modules\n- [x] ESLint (Airbnb)\n- [x] JWT\n- [ ] Examples\n\n## npm scripts\n\n### Dev\n```\nnpm run dev\n```\nOpen `http://localhost:3000` in your browser.\n\n### Lint\n\n#### Lint only\n```\nnpm run lint\n```\n\n#### Auto fix\n```\nnpm run lint:fix\n```\n\n#### Build\n```\nnpm run build\n```\nFind built files in ./dist.\n\n#### Start (production)\n```\nnpm run start\n```\nOpen `http://localhost:3000` in your browser.\n",
+    "deployedAt": "2017-05-24T12:13:35.771Z"
   }, {
     "name": "react-redux-universal",
     "git_url": "git://github.com/subenksaha/react-redux-universal.git",
