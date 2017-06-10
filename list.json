@@ -90,6 +90,15 @@
     "coverPicture": "https://ucarecdn.com/399ead84-8022-42c1-b8fd-c32526b39cdc/",
     "readme": "# dva-hackernews\n\nHackerNews clone built with [Dva](https://github.com/dvajs/dva), based on [vue-hackernews-2.0](https://github.com/vuejs/vue-hackernews-2.0).\n\n<p align=\"center\">\n  <a href=\"http://dvajs.github.io/dva-hackernews/\">\n    <img src=\"https://zos.alipayobjects.com/rmsportal/XUTutezexphTbgs.png\" width=\"700\" />\n    <br />\n    Live Demo\n  </a>\n</p>\n\n## TODO\n\n- [x] Item Page\n- [x] Comment Page\n- [x] User Page\n- [x] Real-time List Update with Animation\n- [x] Router Transform Animation\n- [ ] SSR\n- [ ] Dynamic Router\n- [ ] Handle loading status automatically\n- [ ] Render Performance\n\n## Run Locally\n\nInstall dependencies.\n\n```bash\n$ npm install\n```\n\nStart server.\n\n```bash\n$ npm start\n```\n\nOpen app in browser.\n\n```bash\n$ open http://localhost:8989/\n```\n"
   }, {
+    "name": "fanpianAdmin",
+    "git_url": "git://github.com/douglasvegas/fanpianAdmin.git",
+    "author": "douglasvegas",
+    "description": "This is the admin for fanpian project written by react.",
+    "tags": ["admin"],
+    "coverPicture": "https://ucarecdn.com/5370301f-bb7c-4adf-be81-77d46f0f1a16/",
+    "readme": "# RecordAdmin\n## Todo\n\n- ~~访客、用户统计图表~~\n- ~~用户管理列表~~\n- ~~文章管理列表~~\n- ~~模块管理~~\n- 文本编辑器\n\n## 界面\n### 文章列表\n![](https://github.com/douglasvegas/fanpianAdmin/blob/master/screenshots/文章列表.png)\n\n### 文章模块\n![](https://github.com/douglasvegas/fanpianAdmin/blob/master/screenshots/文章模块.png)\n\n### 文章统计\n![](https://github.com/douglasvegas/fanpianAdmin/blob/master/screenshots/文章统计.png)\n\n### 用户列表\n![](https://github.com/douglasvegas/fanpianAdmin/blob/master/screenshots/用户列表.png)\n\n\n### ISSUES\n- 建议使用可控表单\n > 符合React的数据流，单向数据流，从state流向render输出的结果。\n 数据存贮在state中，便于使用。便于对数据进行处理\n- webpack publicPath影响打包结果的问题\n- componentDidMount和componentWillUpdate使用可能出现死循环，慎重。\n- 手动删除token、返回登录无法进入界面、流程控制问题。用登录成功的回调函数修改state？\n- react-router4的钩子函数\n\n## 项目地址\n * 前台 [fanpian](https://github.com/douglasvegas/fanpian)\n * 后台 [fanpianAdmin](https://github.com/douglasvegas/fanpianAdmin)\n * 后端项目\n[fanpianBackend](https://github.com/douglasvegas/fanpianBackend)\n\n## 线上预览\n* [前台](http://www.douglasvegas.com/)\n* [后台](http://admin.douglasvegas.com/)",
+    "deployedAt": "2017-06-10T07:33:46.311Z"
+  }, {
     "name": "r2",
     "git_url": "git://github.com/dog-days/r2.git",
     "author": "dog-days",
