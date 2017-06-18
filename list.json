@@ -153,6 +153,15 @@
     "readme": "## react-antd-demo\n基于react及antd的demo\n\n## 演示地址\ndemo: [http://luozhihao.github.io/react-antd-demo/index.html](http://luozhihao.github.io/react-antd-demo/index.html)\n\n## 文档说明\n地址：[http://www.cnblogs.com/luozhihao/p/5579786.html](http://www.cnblogs.com/luozhihao/p/5579786.html)\n\n## 本地运行\n> npm install\n\n> npm run dev\n",
     "deployedAt": "2017-05-10T10:22:39.679Z"
   }, {
+    "name": "react-component-lab",
+    "git_url": "git://github.com/leesx/react-component-lab.git",
+    "author": "leesx",
+    "description": "This is a lab component lab platform, which integrates React, ES2015, Babel, Ant.design. You can write your own free code on the platform, without having to worry about the environment configuration problems.",
+    "tags": ["react", "es2015", "antd"],
+    "coverPicture": "https://ucarecdn.com/307a7801-f7ad-477f-b37f-f95ba09e9eca/",
+    "readme": "This is a lab component lab platform, which integrates React, ES2015, Babel, Ant.design. You can write your own free code on the platform, without having to worry about the environment configuration problems.\n### 先睹为快 :tada:\n![readme](https://github.com/leesx/react-component-lab/blob/master/README.png)\n",
+    "deployedAt": "2017-06-17T16:10:57.742Z"
+  }, {
     "name": "react-frontend-boilerplate",
     "git_url": "git://github.com/huhulab/react-frontend-boilerplate.git",
     "author": "huhulab",
