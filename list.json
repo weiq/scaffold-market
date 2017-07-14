@@ -9,6 +9,15 @@
     "readme": "No README",
     "deployedAt": "2017-06-29T08:40:23.865Z"
   }, {
+    "name": "angular-material-dashboard",
+    "git_url": "git://github.com/wangdicoder/angular-material-dashboard.git",
+    "author": "wangdicoder",
+    "description": "a material-design dashboard by using angular",
+    "tags": ["angular", "material design", "dashboard"],
+    "coverPicture": "https://ucarecdn.com/d69daca4-550d-485c-b297-d93323a5bdbe/",
+    "readme": "# Angular2 Material Dashboard Pro\n\nMaterial-design Dashboard\n\n## How to run it\n\n**- please ensure you have installed angular cli, otherwise `npm install -g @angular/cli`**\n\n1. git clone https://github.com/wangdicoder/angular-material-dashboard\n2. cd angular-material-dashboard\n3. npm install\n4. ng serve -o (it will automatically open localhost:4200)\n\n## Further Plan\n- [ ] Add Wizard Component\n- [ ] Responsive Sidebar\n- [ ] Consolidate form elements, like switch\n\n## Screenshot\n\n### Dashboard\n\n![](https://github.com/wangdicoder/angular2-material-dashboard-pro/raw/master/screenshot/dashboard.png)\n\n### Login\n\n![](https://github.com/wangdicoder/angular2-material-dashboard-pro/raw/master/screenshot/login.png)\n\n### Register\n![](https://github.com/wangdicoder/angular2-material-dashboard-pro/raw/master/screenshot/register.png)\n\n### Lock\n![](https://github.com/wangdicoder/angular2-material-dashboard-pro/raw/master/screenshot/lock.png)\n\n### User Profile\n![](https://github.com/wangdicoder/angular2-material-dashboard-pro/raw/master/screenshot/profile.png)\n\n### Sweet Alert\n![](https://github.com/wangdicoder/angular2-material-dashboard-pro/raw/master/screenshot/sweetalert.gif)\n\n### Notification\n![](https://github.com/wangdicoder/angular2-material-dashboard-pro/raw/master/screenshot/notification.gif)\n\n### Settings\n![](https://github.com/wangdicoder/angular2-material-dashboard-pro/raw/master/screenshot/settings.gif)\n\n### Table\n![](https://github.com/wangdicoder/angular2-material-dashboard-pro/raw/master/screenshot/table.png)\n\n### Price\n![](https://github.com/wangdicoder/angular2-material-dashboard-pro/raw/master/screenshot/price.png)\n\n### Panels\n![](https://github.com/wangdicoder/angular2-material-dashboard-pro/raw/master/screenshot/panel.png)\n\n## Acknowledge \n\n- [Creative Tim](https://github.com/creativetimofficial)\n- [Sweet Alert 2](https://github.com/limonte/sweetalert2)\n- [Bootstrap Notify](http://bootstrap-notify.remabledesigns.com)\n\n## License\n\nMIT\n",
+    "deployedAt": "2017-07-14T05:42:30.495Z"
+  }, {
     "name": "antd-admin",
     "git_url": "git://github.com/zuiidea/antd-admin.git",
     "author": "zuiidea",
