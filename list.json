@@ -342,6 +342,15 @@
     "readme": "ts-dva\n=======\n\n* Language:TypeScript\n\n* Framework:dva\n\n* UI:ant.design\n\nTable of Contents\n-------\n[目录]\n\n* [Install[安装依赖]](#install)\n* [Usage[用法]](#usage)\n* [Demo[项目演示]](#demo)\n* [Links[教程链接]](#links)\n* [Thank[致谢]](#thank)\n* [License[开源协议]](#license)\n\nInstall\n-------\n[安装依赖]\n\n```bash\nnode >= 4.2.0\n```\n```bash\n$ npm install -g typescript\n$ npm install\n```\n\n[可选操作]\n```bash\n$ npm install -g typings\n```\n\nUsage\n-------\n[用法]\n\n#### development[开发环境]\n\n```bash\n$ npm start\n```\n访问：[http://127.0.0.1:8989](http://127.0.0.1:8989)\n\n#### test[测试环境]\n\n```bash\n$ npm run test\n```\n\n#### production[生产环境]\n\n```bash\n$ npm run build\n```\n\nDemo\n-------\n[项目演示]\n\n登录1\n![登录1](https://github.com/huang6349/Pictures/blob/master/ts-dva/2016-10-27_111333.png)\n\n布局1\n\n![布局1](https://github.com/huang6349/Pictures/blob/master/ts-dva/2016-10-14_163215.png)\n\nLinks\n-------\n[教程链接]\n\n* [Microsoft/TypeScript](https://github.com/Microsoft/TypeScript)\n* [facebook/react](https://github.com/facebook/react)\n* [dvajs/dva](https://github.com/dvajs/dva)\n* [ant-design/ant-design](https://github.com/ant-design/ant-design)\n* [sorrycc/dva-boilerplate-typescript](https://github.com/sorrycc/dva-boilerplate-typescript)\n\nThank\n-------\n[致谢]\n* [sorrycc](https://github.com/sorrycc)\n\nLicense\n-------\n[开源协议]\n\n[MIT](https://tldrlegal.com/license/mit-license)",
     "deployedAt": "2017-05-16T03:48:26.866Z"
   }, {
+    "name": "typescript-react-hot-reload",
+    "git_url": "git://github.com/chunliu/typescript-react-hot-reload.git",
+    "author": "chunliu",
+    "description": "This is a scaffold with react, redux, antd and typescript",
+    "tags": ["typescript", "react", "redux", "webpack-dev-server"],
+    "coverPicture": "https://ucarecdn.com/020d75e1-0ff2-464f-8165-3887e30d5fe7/",
+    "readme": "# typescript-react-hot-reload\n\nThis is a very simple template for creating React applications with TypeScript. It is configured with hot loader and webpack dev server to allow changes to be live reloaded. \n\nThis template is based on the following packages: \n\n* [webpack](https://webpack.js.org/)\n* [webpack-dev-server](https://github.com/webpack/webpack-dev-server)\n* [react-hot-loader](https://github.com/gaearon/react-hot-loader)\n* [awesome-typescript-loader](https://github.com/s-panferov/awesome-typescript-loader)\n* [antd](https://ant.design/docs/react/introduce)\n\nOther reference:\n\n* [TypeScript document](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html)\n* [Hot Module Replacement in webpack](https://webpack.js.org/guides/hmr-react/)\n\nHow to use this template: \n\n```\ngit clone https://github.com/chunliu/typescript-react-hot-reload.git\nnpm install\nnpm start\n```",
+    "deployedAt": "2017-08-15T14:43:53.518Z"
+  }, {
     "name": "ui",
     "git_url": "git://github.com/tianzx/ui.git",
     "author": "tianzx",
