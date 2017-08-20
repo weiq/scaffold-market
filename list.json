@@ -270,15 +270,6 @@
     "readme": "# react-redux-antd-starter\nA React + Redux + Ant-Design frontend boilerplate.\n\n- [x] React\n- [x] Redux\n- [x] Ant-Design\n- [x] React Router\n- [x] React Router Redux\n- [x] Redux Actions\n- [x] Babel\n- [x] PostCSS\n- [x] LESS\n- [ ] CSS Modules\n- [x] ESLint (Airbnb)\n- [x] JWT\n- [ ] Examples\n\n## npm scripts\n\n### Dev\n```\nnpm run dev\n```\nOpen `http://localhost:3000` in your browser.\n\n### Lint\n\n#### Lint only\n```\nnpm run lint\n```\n\n#### Auto fix\n```\nnpm run lint:fix\n```\n\n#### Build\n```\nnpm run build\n```\nFind built files in ./dist.\n\n#### Start (production)\n```\nnpm run start\n```\nOpen `http://localhost:3000` in your browser.\n",
     "deployedAt": "2017-05-24T12:13:35.771Z"
   }, {
-    "name": "react-redux-router-antd-int-cli",
-    "git_url": "git://github.com/KK-Lin/react-redux-router-antd-int-cli.git",
-    "author": "KK-Lin",
-    "description": "react-redux-router-antd-int-cli",
-    "tags": [],
-    "coverPicture": null,
-    "readme": "",
-    "deployedAt": "2017-06-15T15:48:13.927Z"
-  }, {
     "name": "react-redux-universal",
     "git_url": "git://github.com/subenksaha/react-redux-universal.git",
     "author": "subenksaha",
