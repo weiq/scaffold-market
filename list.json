@@ -9,6 +9,15 @@
     "readme": "No README",
     "deployedAt": "2017-06-29T08:40:23.865Z"
   }, {
+    "name": "ReactAntd",
+    "git_url": "git://github.com/2425358736/ReactAntd.git",
+    "author": "2425358736",
+    "description": "React + Antd（阿里组件库） 基于阿里dva官方脚本架",
+    "tags": ["react", "antd"],
+    "coverPicture": "https://ucarecdn.com/c79a4113-5d91-4341-83cd-d89df86e276a/",
+    "readme": "# ReactAntd\nReact+ Antd（阿里组件库）\n",
+    "deployedAt": "2017-09-19T06:59:28.213Z"
+  }, {
     "name": "angular-material-dashboard",
     "git_url": "git://github.com/wangdicoder/angular-material-dashboard.git",
     "author": "wangdicoder",
