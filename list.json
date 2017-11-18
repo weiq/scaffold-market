@@ -306,6 +306,15 @@
     "readme": "## What's this\nReact([ant-design](https://github.com/ant-design/ant-design)) based frontend boilerplate project.\n\n## How to run it\n``` bash\nnpm install\n# More commands see: package.json\nnpm start\n# Open http://localhost:3000/#/demo/test_forms\n```\n",
     "deployedAt": "2017-05-24T12:16:08.998Z"
   }, {
+    "name": "react-mobx-antd-boilerplate",
+    "git_url": "git://github.com/moxun33/react-mobx-antd-boilerplate.git",
+    "author": "moxun33",
+    "description": "react-router4-mobx-antd-webpack3-boilerplate",
+    "tags": ["webpack3", "mobx", "antd"],
+    "coverPicture": null,
+    "readme": "# react-mobx-antd-boilerplate 开箱即用\n参考该教程[从零搭建react-family框架教程](https://github.com/brickspert/blog/issues/1)搭建的 react 全家桶框架，\n与文章不同的是此处使用 (mobx)[https://github.com/mobxjs/mobx]  作为状态管理器，其他部分也作了相应的调整。\n\nUI框架方面，集成了 <https://ant.design/index-cn>\n\n开发笔记 ，<http://qimajiang.com/2017/10/21/React%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/>\n\n# 基础功能\n\n1 react router4 路由和导航\n\n2 mobx 状态管理机，支持多个 stores 文件\n\n3 跨域代理\n\n4 css 加载\n\n5 图片加载\n\n6 axios 请求和响应拦截器\n\n7 懒加载\n\n8 etc\n\n# 开发坏境启动\n\n1 npm install\n\n2 npm run dev\n\n3 浏览器打开http://localhost:3001\n\n# 生产坏境部署\n\n1 npm run build\n\n2 拷贝dist文件夹至服务器即可",
+    "deployedAt": "2017-11-18T14:55:07.596Z"
+  }, {
     "name": "react-molin",
     "git_url": "git://github.com/Molin123/react-molin.git",
     "author": "Molin123",
